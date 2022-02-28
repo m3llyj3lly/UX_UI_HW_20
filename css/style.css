@@ -1,0 +1,61 @@
+body {
+    font-family: 'Roboto Condensed', 'Times New Roman', Times, serif;
+    color: black;
+}
+
+div.inline {
+    width: 23%;
+    padding: 1%;
+}
+
+nav.topNav {
+    padding: 1%;
+}
+
+ul{
+    padding: 10px;
+}
+p.title {
+    text-align: center;
+    font-size: 32px;
+}
+p {
+    text-align: right;
+}
+.topNav {
+    float: right;
+}
+.topNav ul li {
+    background-color: #D1A6F9;
+    display: inline-block;
+    text-align: center;
+    padding: 30px 30px;
+    vertical-align: top;
+    margin-left: 10px;
+}
+footer {
+    background-color: #373738;
+    padding: 10px;
+}
+.footer ul li {
+    border: 1px solid #D1A6F9;
+    color: #ffffff;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 20px;
+    vertical-align: top;
+    margin-left: 10px;
+}
+.contact img {
+    float: left;
+}
+.contact p {
+    text-align: left;
+    padding-top: 65px;
+    color: #ffffff;
+}
+.copyright {
+    clear: left;
+    text-align: right;
+    color: #ffffff;
+}
