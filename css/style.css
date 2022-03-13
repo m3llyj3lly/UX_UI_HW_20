@@ -19,9 +19,6 @@ p.title {
     text-align: center;
     font-size: 32px;
 }
-p {
-    text-align: right;
-}
 .topNav {
     float: right;
 }
@@ -33,6 +30,11 @@ p {
     vertical-align: top;
     margin-left: 10px;
 }
+.display-4, .jumbotron { text-align: center; }
+.jumbotron { background-color: #fff; }
+h3.card-title img, .list-group-item img { width: 32px; }
+#projectdetails img { width: 75%; display: block; margin: 0 auto; }
+.col-sm-6 img, .col-sm-12 img { width: 100%; }
 footer {
     background-color: #373738;
     padding: 10px;
